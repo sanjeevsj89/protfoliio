@@ -1,0 +1,252 @@
+body {
+    font-size: 1.5rem;
+    font-family: 'Karla', sans-serif;
+    line-height: 1.5;
+    width: 90vw;
+    border: 8px rgba(247, 244, 244, 0.24) solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 15px;
+    margin: auto;
+    background: linear-gradient(rgb(210, 209, 209), rgb(0, 0, 0));
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-gap: 2px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+header{
+    border: 5px rgb(120, 120, 121) solid;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 150px;
+    background-color: #2f2f31;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0;
+    height: 10vh;
+}
+
+footer {
+    border: 5px rgb(120, 120, 121) solid;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 150px;
+    background-color: #040211;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0;
+    height: 10vh;
+}    
+
+
+footer{
+    border-radius: 0px;
+}
+
+#logo-name {
+    color: rgb(148, 143, 143);
+    font-size: 2.4rem;
+
+}
+
+.run {
+    max-width: 8em;
+    margin-top: 1em;
+}
+  
+.top-section{
+    background-color: rgb(181, 177, 177);
+    border: 2px rgba(173, 166, 166, 0.37) solid;
+}
+
+
+.avatar {
+    margin-top: 1em;
+    border-radius: 18px;
+    border: 4px solid rgba(21, 20, 85, 0.719);
+    width: 25vw;
+    height: 50vh;
+}
+
+
+.profile-name {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    color: rgb(94, 92, 92);
+    margin: 2px
+  }
+
+  .profile-name:hover {
+    color: rgb(233, 227, 227);
+  }
+  
+.desc {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.2rem;
+    color: white;
+    opacity: 0.7;
+
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-btn{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:white;
+    border-radius: 10px;
+    cursor:pointer;
+    color:black;
+    font-size:2rem;
+    transition: all 0.3s;
+    font-weight:700;
+    margin: 1rem;
+    padding: 5px;
+}
+
+.profile-btn:hover{
+    background:rgba(138, 135, 135, 0.678);
+    font-size: 2.2rem;
+    color: white;
+    padding: 6px;
+
+}
+
+#contact{
+    background: #817b66;
+}
+#contact:hover{
+    background-color: #fdc200;
+    padding: 6px;
+}
+
+
+.infography{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    background-color: #727177;
+    margin: 1em;
+    padding: 20px;
+}
+
+.infography-title{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.about{
+    width: 40%;
+    }
+
+.basic-info{
+    width:60%;
+}
+
+.info{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.info-bold{
+    font-weight: 800;
+    color:#aca89b;
+}
+
+li{
+    padding: 15px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.educations{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+#edu-head, #form-head{
+    font-size: 2em;
+}
+
+.education {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    background-color: #727177;
+    border: 2px rgba(173, 166, 166, 0.37) solid;
+    margin: 0.6em;
+}
+
+
+.edu-sec-a{
+    width: 30%;
+    background-color: #817b66;
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+.edu-sec-b{
+    width: 70%;
+    text-align: left;
+    padding: 20px;
+}
+
+.edu-sec-b p{
+    font-size: 1.2rem;
+}
+
+.supervision{
+    font-weight: 800;
+    color:#aca89b;
+}
+.footer-combo{
+    display: flex;
+    flex-flow:row;
+    justify-content:space-around;
+    vertical-align: middle;
+}
+
+footer{
+    height: fit-content;
+    padding: 8px;
+}
+
+footer h1{
+    margin: 0;
+}

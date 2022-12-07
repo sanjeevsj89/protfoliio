@@ -1,0 +1,125 @@
+@media (max-width: 1500px){    
+    .profile-name {
+      font-size: 1.2em;
+    }
+    .desc {
+      font-size: 1rem;
+    }
+    .avatar {
+      width: 60vw;
+  }
+  }
+  
+  @media (max-width: 1200px){    
+    .profile-name {
+      font-size: 1.2em;
+    }
+    .desc {
+      font-size: 1rem;
+    }
+    .avatar {
+      width: 60vw;
+  }
+  }
+  
+  
+  /*  */
+  /*  */
+  /*  */
+  
+  @media (max-width: 900px){
+    .profile-name {
+      font-size: 1em;
+    }
+    .avatar {
+      width: 80vw;
+  }
+  }
+  
+  
+  /*  */
+  /*  */
+  /*  */
+  
+  
+  @media (max-width: 700px) {  
+      body {
+        font-size: 1.53rem;
+      }
+  
+      header {
+        height: 8vh;
+  
+      }
+      #logo-name {
+        font-size: 2rem;
+      }
+      .run {
+        width: 2.5em;
+    }
+      .profile-name {
+        font-size: 0.8em;
+      }
+  
+      .avatar {
+        width: 80vw;
+    }
+    
+    .desc {
+      font-size: 0.8rem;
+    }
+  
+    }
+  
+  
+  /*  */
+  /*  */
+  /*  */
+  
+    @media (max-width: 500px){
+      .profile-name {
+        font-size: 0.7em;
+      }
+      .desc {
+        font-size: 0.6rem;
+      }
+      .avatar {
+        width: 80vw;
+    }
+    }
+    
+    
+  /*  */
+  /*  */
+  /*  */
+  
+    @media (max-width: 380px) {
+      body {
+        font-size: 1.2rem;
+      }
+  
+      .desc {
+        font-size: 0.5rem;
+      }
+      header {
+        height: 5vh;
+  
+      }
+  
+      #logo-name {
+        font-size: 1.2rem;
+      }
+  
+      .run{
+        width: 2em;
+      }
+      .profile-name {
+        font-size: 0.5em;
+      }
+  
+      .avatar {
+        width: 80vw;
+    }
+  
+    }
+    

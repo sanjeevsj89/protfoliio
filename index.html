@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanjeev Shrestha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="media.css" />
+    <link rel="stylesheet" type="text/css" href="form.css" />
+  </head>
+  <body>
+    <div align="center" class="content">
+      <header>
+        <h1>
+          <a id="logo-name" href="https://www.instagram.com/imnott_sj/"
+            >Iam_SJ</a
+          >
+        </h1>
+        <img class="run" src="sjLogo.png" alt="click me" />
+      </header>
+
+      <nav></nav>
+
+      <main>
+        <section class="top-section">
+          <img class="avatar" src="sanjeev.jpg" alt="profile" />
+          <h1 class="profile-name">Sanjeev Shrestha</h1>
+          <p class="desc">Coding Enthusiast.</p>
+          <div class="top-buttons">
+            <a class="profile-btn" href="resume.pdf" download>
+              Resume
+            </a>
+            <span id="contact" class="profile-btn">
+              <a href="#body-container">Contact</a>
+            </span>
+          </div>
+        </section>
+
+        <article class="infography">
+          <div class="about">
+            <h1 class="infography-title">About Me and Academic Honesty</h1>
+            <p class="info">
+              Highly committed, passionate, and qualified professional currently
+              pursuing Computer Programming at Seneca College.
+            </p>
+            <p>
+              I declare that this assignment is my own work in accordance with
+              Seneca Academic Policy. No part of this assignment has been copied
+              manually or electronically from any other source (including web
+              sites) or distributed to other students.
+            </p>
+            <span><b>Date:</b> 04 December, 2022</span>
+          </div>
+
+          <div class="basic-info">
+            <h1 class="infography-title">Basic Information</h1>
+            <ul class="info">
+              <li><span class="info-bold">AGE:</span>21</li>
+              <li>
+                <span class="info-bold">EMAIL :</span>sshrestha39@myseneca.ca
+              </li>
+              <li><span class="info-bold">LANGUAGE :</span>English, Nepali</li>
+              <li><span class="info-bold">CLASS SECTION:</span> ZAA</li>
+              <li><span class="info-bold">STUDENT ID :</span>154037212</li>
+              <li>
+                <span class="info-bold">INSTRUCTOR:</span>Dr. Muath Alzghool
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <section class="educations">
+          <h1 id="edu-head">EDUCATION</h1>
+
+          <article class="education">
+            <div class="edu-sec-a">
+              <h1>High School Certificate</h1>
+              <span>2021 (graduated)</span>
+            </div>
+            <div class="edu-sec-b">
+              <h1>High School Certificate</h1>
+              <span>Tilottama Campus, Nepal</span>
+              <p>
+                Under the supervision of
+                <span class="supervision">Mr. Manoj Silwal</span>
+              </p>
+            </div>
+          </article>
+
+          <article class="education">
+            <div class="edu-sec-a">
+              <h1>Diploma Certificate</h1>
+              <span>2022-2023 <br> (expected graduation)</span>
+            </div>
+            <div class="edu-sec-b">
+              <h1>Diploma Certificate</h1>
+              <span>Seneca College, Toronto, Canada</span>
+              <p>
+                Under the supervision of
+                <span class="supervision">Mrs. Kristin Keogh</span>
+              </p>
+            </div>
+          </article>
+        </section>
+        <section class="fillForm">
+          <h1 id="form-head">CONTACT ME</h1>
+          <div id="body-container">
+            <form
+              action="https://httpbin.org/post"
+              method="post"
+              class="contactUs"
+              name="signup"
+              onsubmit="return checkForm();"
+            >
+              <div class="contact">
+                <label for="first-name"> First Name: </label>
+                <input
+                  type="text"
+                  name="first name"
+                  id="first-name"
+                  pattern="^[A-Z][a-zA-Z]*"
+                  required
+                /><br /><br />
+
+                <label for="last-name"> Last Name: </label>
+                <input
+                  type="text"
+                  name="last name"
+                  id="last-name"
+                  pattern="^[A-Z][a-zA-Z]*"
+                  required
+                /><br /><br />
+
+                <label> Email: </label>
+                <input type="email" id="email" required /><br /><br />
+
+                <label for="streetAddress"> Street Address: </label>
+                <input
+                  type="text"
+                  name="streetAddress"
+                  id="streetAddress"
+                  required
+                /><br /><br />
+
+                <label for="city"> City: </label>
+                <input
+                  type="text"
+                  name="city"
+                  id="city"
+                  pattern="^[A-Z][a-zA-Z]*"
+                  required
+                /><br /><br />
+
+                <label>
+                    Age:
+                </label>
+                <input type="number" min="18" max="60" id="age" required><br><br>
+
+                <label for="province">Province:</label>
+                <input
+                  list="province"
+                  id="provinces"
+                  placeholder="province"
+                  class="feedback-input"
+                  required
+                />
+                <datalist id="province">
+                  <option value="Alberta"></option>
+                  <option value="British Columbia"></option>
+                  <option value="Manitoba"></option>
+                  <option value="New Brunswick"></option>
+                  <option value="Newfoundland and Labrador"></option>
+                  <option value="Nova Scotia"></option>
+                  <option value="Ontario"></option>
+                  <option value="Prince Edward Island"></option>
+                  <option value="Quebec"></option>
+                  <option value="Saskatchewan"></option>
+                  <option value="Northwest Territories"></option>
+                  <option value="Nunavut"></option>
+                  <option value="Yukon"></option>
+                </datalist>
+
+                <label for="postal"> Postal Code: </label>
+                <input
+                  type="text"
+                  name="last name"
+                  id="last-name"
+                  pattern="^[ABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Z]{1} *\d{1}[A-Z]{1}\d{1}$"
+                  required
+                /><br /><br />
+
+                <label>What is this about?:</label>
+                <br />
+                <input
+                  type="radio"
+                  name="about"
+                  id="job"
+                  value="About"
+                  onclick="showHideText()"
+                  required
+                />
+                <label for="job">Job Offer</label>
+                <input type="radio" name="about" id="school" value="School" onclick="showHideText()">
+                <label for="school">School</label>
+
+                <input placeholder="text" name="element" hidden> </input>
+                <input type="radio" name="about" id="other" value="Other" onclick="showHideText()">
+                <label for="other">Other</label><br /><br />
+
+                <input type="text" id="text-box" rows=2" cols="50"></input>
+                <br><br>
+
+                <textarea placeholder="Enter Message" name="message" id="message" cols="50" rows="20" required></textarea>
+
+                <div id="buttons">
+                  <input type="submit" value="Submit" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div id="footer-combo">
+          <span>© WEB222 Final Assessment</span>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
